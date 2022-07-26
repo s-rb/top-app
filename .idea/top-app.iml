@@ -5,6 +5,12 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/4" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/6" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/7" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/8" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/b" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/f" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
