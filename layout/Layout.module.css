@@ -1,0 +1,47 @@
+/*Задаем размер колонок в grid-template-columns minmax - от и до размеры*/
+.wrapper {
+    display: grid;
+    grid-template-columns: auto 230px minmax(320px, 1200px) auto;
+    grid-template-rows: auto 1fr auto; /*высота ячеек, авто - сколько осталось использует. То есть первая и последняя ячейка прижмутся к верху/низу*/
+    min-height: 100vh; /*Минимальная высота*/
+    gap: 0 30px;
+    grid-template-areas:
+        ". header header ."
+        ". sidebar body ."
+        "footer-area footer-area footer-area footer-area";
+}
+
+.header {
+    grid-area: header;
+    display: none;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.body {
+    grid-area: body;
+}
+
+.footer {
+    grid-area: footer-area;
+}
+
+@media (max-width: 765px) {
+    .wrapper {
+        grid-template-columns: minmax(320px, 1fr);
+        grid-template-areas:
+            "header"
+            "body"
+            "footer-area";
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .header {
+        display: block;
+    }
+}
