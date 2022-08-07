@@ -13,8 +13,6 @@ A
 ..run/Template Attach to Node.js_Chrome.run.xml,7\a\7a86bb1f8eeb1f5e485f13848ebc305c1ed74d10
 O
 components/Htag/Htag.module.css,e\5\e58e326328194fe51b5c1efd76d5a53f11d4a7c9
-B
-styles/globals.css,8\c\8c258232cbcd5d83991c524a9e86c8d3f984fc57
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
