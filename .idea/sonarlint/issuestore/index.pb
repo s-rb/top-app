@@ -30,8 +30,6 @@ C
 pages/_document.tsx,a\d\ada43e48670fd1ae7318859ac38479e031ea9236
 O
 components/PTag/PTag.module.css,b\d\bd342990274a1ff891309cae8b72de95b57bdf0a
-F
-components/Tag/Tag.tsx,6\a\6af4e1b1c88adf2c2629b64c48afc99dc8bd362f
 M
 components/Tag/Tag.module.css,b\a\ba796994b26080363688c5e11079897e9f7ed05e
 K
@@ -50,16 +48,12 @@ K
 next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 C
 components/index.ts,0\5\05dbfbf07fc5a6a9b19ce700edff227ea53054e0
-Q
-!components/Rating/Rating.props.ts,5\e\5e436303e40ca0636b1de30e0df03502b61d6db4
 J
 components/Rating/star.svg,6\e\6ef234703258fb7ea0ec106ade0ca9f61f792888
 9
 	.eslintrc,4\b\4be5f5e3cea171c304090be92469b2f2cb51039a
 =
 next-env.d.ts,7\9\7948598afd6f2aa542f1b55d7b6f077a70937e77
-L
-components/Rating/Rating.tsx,0\f\0f06e9d27a1c8d133831529e18abc10a64707ce4
 S
 #components/Rating/Rating.module.css,f\2\f23816be4cd56db1cc0365e215e90f2698e535df
 F

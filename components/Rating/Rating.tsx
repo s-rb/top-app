@@ -4,7 +4,7 @@ import cn from 'classnames';
 import StarIcon from './star.svg';
 import {useEffect, useState, KeyboardEvent} from "react";
 
-export const Rating = ({isEditable = false, rating, setRating, children, ...props}: RatingProps): JSX.Element => {
+export const Rating = ({isEditable = false, rating, setRating, ...props}: RatingProps): JSX.Element => {
     const [ratingArray, setRatingArray] = useState<JSX.Element[]>(new Array(5).fill(<></>)); // Первоначально массив заполняется пустыми элементами (реакт фрагмент)
 
     useEffect(() => {
@@ -22,6 +22,7 @@ export const Rating = ({isEditable = false, rating, setRating, children, ...prop
                     onMouseEnter={() => changeDisplay(i + 1)}
                     onMouseLeave={() => changeDisplay(rating)}
                     onClick={() => onClick(i + 1)}
+                    key={i}
                 >
                     <StarIcon
                         tabIndex={isEditable ? 0 : -1}
