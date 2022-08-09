@@ -8,12 +8,13 @@ import ProductsIcon from './icons/products.svg';
 import {TopLevelCategory} from "../../interfaces/page.interface";
 import styles from './Menu.module.css';
 import cn from "classnames";
+import Link from 'next/link';
 
 const firstLevelMenu: FirstLevelMenuItem[] = [
-    { route: 'courses', name: 'Курсы', icon: <CoursesIcon/>, id: TopLevelCategory.Courses},
-    { route: 'services', name: 'Сервисы', icon: <ServicesIcon/>, id: TopLevelCategory.Services},
-    { route: 'books', name: 'Книги', icon: <BooksIcon/>, id: TopLevelCategory.Books},
-    { route: 'products', name: 'Продукты', icon: <ProductsIcon/>, id: TopLevelCategory.Products},
+    {route: 'courses', name: 'Курсы', icon: <CoursesIcon/>, id: TopLevelCategory.Courses},
+    {route: 'services', name: 'Сервисы', icon: <ServicesIcon/>, id: TopLevelCategory.Services},
+    {route: 'books', name: 'Книги', icon: <BooksIcon/>, id: TopLevelCategory.Books},
+    {route: 'products', name: 'Продукты', icon: <ProductsIcon/>, id: TopLevelCategory.Products},
 ];
 
 export const Menu = (): JSX.Element => {
@@ -23,14 +24,16 @@ export const Menu = (): JSX.Element => {
         return <>
             {firstLevelMenu.map(menuItem => (
                 <div key={menuItem.route}>
-                    <a href={`/${menuItem.route}`}>
-                        <div className={cn(styles.firstLevel, {
-                            [styles.firstLevelActive]: menuItem.id == firstCategory     /*Элемент меню будет активным - для текущего элемента меню*/
-                        })}>
-                            {menuItem.icon}
-                            <span>{menuItem.name}</span>
-                        </div>
-                    </a>
+                    <Link href={`/${menuItem.route}`}>
+                        <a>
+                            <div className={cn(styles.firstLevel, {
+                                [styles.firstLevelActive]: menuItem.id == firstCategory     /*Элемент меню будет активным - для текущего элемента меню*/
+                            })}>
+                                {menuItem.icon}
+                                <span>{menuItem.name}</span>
+                            </div>
+                        </a>
+                    </Link>
                     {menuItem.id == firstCategory && buildSecondLevel(menuItem)}
                 </div>
             ))}
@@ -54,9 +57,11 @@ export const Menu = (): JSX.Element => {
     const buildThirdLevel = (pages: PageItem[], route: string) => {
         return <div>
             {pages.map(p => (
-                <a key={p.category } href={`/${route}/${p.alias}`} className={cn(styles.thirdLevel, {
-                    [styles.thirdLevelActive]: false
-                })}>{p.category}</a>
+                <Link href={`/${route}/${p.alias}`} key={p.category}>
+                    <a key={p.category} className={cn(styles.thirdLevel, {
+                        [styles.thirdLevelActive]: false
+                    })}>{p.category}</a>
+                </Link>
             ))}
         </div>;
     }
