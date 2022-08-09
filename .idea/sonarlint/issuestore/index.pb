@@ -56,8 +56,6 @@ S
 #components/Rating/Rating.module.css,f\2\f23816be4cd56db1cc0365e215e90f2698e535df
 F
 layout/Layout.props.ts,2\e\2eae9956cfed0a35ab3d4ea8db578ce61e6c2c7c
-Q
-!layout/Sidebar/Sidebar.module.css,f\b\fb06845f857f893b8a09395b3fb0b8b2d425208f
 O
 layout/Sidebar/Sidebar.props.ts,1\8\18104a53439be382a9564e2db9534c4dfa7a0543
 O
