@@ -11,8 +11,6 @@ A
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
 ^
 ..run/Template Attach to Node.js_Chrome.run.xml,7\a\7a86bb1f8eeb1f5e485f13848ebc305c1ed74d10
-O
-components/Htag/Htag.module.css,e\5\e58e326328194fe51b5c1efd76d5a53f11d4a7c9
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -44,8 +42,6 @@ K
 components/Rating/star3.svg,3\8\3831bb113dbe504846d1e162f8a14f5f316a34b9
 >
 next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
-C
-components/index.ts,0\5\05dbfbf07fc5a6a9b19ce700edff227ea53054e0
 J
 components/Rating/star.svg,6\e\6ef234703258fb7ea0ec106ade0ca9f61f792888
 9
@@ -62,7 +58,5 @@ O
 layout/Header/Header.module.css,5\f\5f1c8a833e1f770bf9a5ed554cc0678c1dcd613a
 M
 layout/Header/Header.props.ts,7\5\7500ca69e634b2ba0f68962b922ff8e94ebfd8a1
-H
-components/PTag/PTag.tsx,0\3\03023c02d4497ba1dfdb41591d62b5f39cccff48
 O
 layout/Footer/Footer.module.css,6\9\69ad04226c3420807a8b182a947713bf815e5eb9
