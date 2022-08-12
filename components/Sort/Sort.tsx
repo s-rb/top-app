@@ -21,7 +21,8 @@ export const Sort = ({sort, setSort, className, ...props}: SortProps): JSX.Eleme
                 })}
             >
                 {/*&nbsp; - неразрывный пробел*/}
-                <SortIcon className={styles.sortIcon}/>По&nbsp;цене
+                {/*<SortIcon className={styles.sortIcon}/>По&nbsp;цене*/}
+                <SortIcon className={styles.sortIcon}/>По цене
             </span>
         </div>
     );
