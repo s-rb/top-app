@@ -1,7 +1,7 @@
 import {TopPageComponentProps} from "./TopPageComponent.props";
 import {Advantages, Htag, Sort, Tag} from "../../components";
 import styles from './TopPageComponent.module.css';
-import {HhData} from "../../components/HhData/HhData";
+import {HhData} from "../../components";
 import {TopLevelCategory} from "../../interfaces/page.interface";
 import {SortEnum} from "../../components/Sort/Sort.props";
 import {useReducer} from "react";
