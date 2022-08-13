@@ -6,6 +6,7 @@ import {MenuItem} from "../interfaces/menu.interface";
 function Search({menu, firstCategory}: HomeProps): JSX.Element {
     return (
         <>
+            Search
         </>
     );
 }

@@ -98,8 +98,6 @@ D
 layout/Menu/Menu.tsx,f\a\faafe9a932884399edff2fd349960b72b16910e9
 ?
 layout/logo.svg,2\0\209d6417171c08a3278546bc55ae54435fae50ef
-@
-pages/search.tsx,a\1\a1b4f27d2b0ac19646d389f57f6a637f85e2e8b0
 F
 pages/[type]/index.tsx,0\f\0f44d10edfe28921f3d89c411781b993e2e772cf
 A
@@ -128,8 +126,6 @@ H
 pages/[type]/[alias].tsx,8\7\87ad1bde7d2aef03c29b7c7b436ae953e5a5a615
 H
 components/PTag/PTag.tsx,0\3\03023c02d4497ba1dfdb41591d62b5f39cccff48
-J
-layout/Sidebar/Sidebar.tsx,5\9\5970634927ab492ad03b29da4dca0ecd7a2a58e6
 Y
 )components/Advantages/Advantages.props.ts,2\5\2543e8de810dd7974143968cf81b6514f299705b
 T
