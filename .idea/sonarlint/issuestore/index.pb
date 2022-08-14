@@ -74,8 +74,6 @@ Q
 !components/Rating/Rating.props.ts,5\e\5e436303e40ca0636b1de30e0df03502b61d6db4
 F
 components/Tag/Tag.tsx,6\a\6af4e1b1c88adf2c2629b64c48afc99dc8bd362f
-O
-interfaces/product.interface.ts,0\6\065024068ce7cbef0dd254507fedead819bba44b
 L
 components/Rating/Rating.tsx,0\f\0f06e9d27a1c8d133831529e18abc10a64707ce4
 G
