@@ -136,3 +136,43 @@ L
 interfaces/page.interface.ts,8\3\8370538c88ee02ad5796623bb2473604291f8907
 H
 components/Sort/sort.svg,3\0\30fa619197e9883d0cc3390c9062e23e18b3b983
+H
+layout/Layout.module.css,a\8\a88a2135e58032c4ca3e455b1e08db49ea7e3fd5
+l
+<page-components/TopPageComponent/TopPageComponent.module.css,0\3\036ea1f880e693f2b751bd2333ad339706633885
+M
+components/Sort/Sort.props.ts,7\8\78f4c41290df6a0a2e9a2643e487ef24169e3357
+H
+components/Sort/Sort.tsx,5\c\5c08895c71221fb71137c8607bf00274649cf341
+`
+0page-components/TopPageComponent/sort.reducer.ts,3\9\3915b9cc778e9c8cc36cd3ef012272a9d4c2b3e8
+Q
+!layout/Sidebar/Sidebar.module.css,f\b\fb06845f857f893b8a09395b3fb0b8b2d425208f
+O
+components/Htag/Htag.module.css,e\5\e58e326328194fe51b5c1efd76d5a53f11d4a7c9
+O
+components/Sort/Sort.module.css,0\7\075304017a9b7fa5c149affa28d3177bed64411b
+B
+styles/globals.css,8\c\8c258232cbcd5d83991c524a9e86c8d3f984fc57
+Q
+!components/Input/Input.module.css,d\a\dafd0f06d2e963b1cd006f5262e974768c930b54
+U
+%components/TextArea/TextArea.props.ts,8\e\8e2d593588eb57b37f7d3573ef34c143ac7ce7a3
+W
+'components/TextArea/TextArea.module.css,c\c\cc7e7cb8e6128653d1d720b87cae9228676b2699
+P
+ components/TextArea/TextArea.tsx,2\5\2524fd19f480f9333bb6c7d7b6eb053b1276f0ae
+O
+components/Input/Input.props.ts,6\2\6219ff102a61b21ba14d2710eae4e0fc4ad5e62b
+?
+pages/index.tsx,b\3\b3357635c26d1b52053382ce7e8a8640d31fedc8
+J
+components/Input/Input.tsx,3\4\3420293bc0188d6cb73d9b94c9f994294066a0e4
+K
+components/Search/glass.svg,2\e\2e2f67f5e6fb22a33849d309a7dde5218222e625
+Q
+!components/Search/Search.props.ts,9\4\94ab9eb5d03f2eafe721fb8477c68e7442df9aaa
+J
+layout/Sidebar/Sidebar.tsx,5\9\5970634927ab492ad03b29da4dca0ecd7a2a58e6
+S
+#components/Search/Search.module.css,f\0\f0679b21c408eee6693594c3b103b6193f6ea51d
