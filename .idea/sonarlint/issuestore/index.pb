@@ -40,8 +40,6 @@ L
 public/arrow.svg,d\b\db62e28010c14f8648cb289a01f4593c4b2a8b21
 K
 components/Rating/star3.svg,3\8\3831bb113dbe504846d1e162f8a14f5f316a34b9
->
-next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 J
 components/Rating/star.svg,6\e\6ef234703258fb7ea0ec106ade0ca9f61f792888
 9
