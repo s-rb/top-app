@@ -23,12 +23,12 @@ export const ReviewForm = ({productId, className, ...props}: ReviewFormProps): J
                 <Input {...register("title")} className={styles.title} placeholder='Заголовок отзыва'/>
                 <div className={styles.rating}>
                     <span>Оценка:</span>
-                    <Controller control={control} render={
-                        ({field}) => {
-                            return <Rating isEditable rating={field.value} ref={field.ref} setRating={field.onChange}/>
-                        }
-                    } name='rating'>
-                    </Controller>
+                    <Controller
+                        control={control}
+                        render={({field}) =>
+                            <Rating isEditable rating={field.value} ref={field.ref}
+                                    setRating={field.onChange}/>
+                        } name='rating'/>
                 </div>
                 <TextArea {...register('description')} className={styles.description} placeholder='Текст отзыва'/>
                 <div className={styles.submit}>
