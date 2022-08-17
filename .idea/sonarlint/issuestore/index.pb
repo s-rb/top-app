@@ -64,10 +64,6 @@ H
 layout/Footer/Footer.tsx,f\e\fe7f3862ff40c099d4733c18a6f2fd41c360dc3d
 M
 layout/Footer/Footer.props.ts,1\8\187e0b1760a23c1802352658942fa03513faaa0d
-A
-package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 Q
 !components/Rating/Rating.props.ts,5\e\5e436303e40ca0636b1de30e0df03502b61d6db4
 F
@@ -90,8 +86,6 @@ G
 helpers/icons/books.svg,f\f\ff165d2b6369215e7732b2f1fdccdc62cac4bfcd
 I
 helpers/icons/courses.svg,3\3\33d834ecd8b426fa301c197f55ed31a0201db0dc
-D
-layout/Menu/Menu.tsx,f\a\faafe9a932884399edff2fd349960b72b16910e9
 ?
 layout/logo.svg,2\0\209d6417171c08a3278546bc55ae54435fae50ef
 F
