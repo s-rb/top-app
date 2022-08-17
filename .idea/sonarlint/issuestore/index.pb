@@ -68,8 +68,6 @@ Q
 !components/Rating/Rating.props.ts,5\e\5e436303e40ca0636b1de30e0df03502b61d6db4
 F
 components/Tag/Tag.tsx,6\a\6af4e1b1c88adf2c2629b64c48afc99dc8bd362f
-L
-components/Rating/Rating.tsx,0\f\0f06e9d27a1c8d133831529e18abc10a64707ce4
 G
 context/app-context.tsx,f\e\feccd0cc460fe9386919d39e9b3564433b6b1ebd
 L
@@ -148,14 +146,10 @@ U
 %components/TextArea/TextArea.props.ts,8\e\8e2d593588eb57b37f7d3573ef34c143ac7ce7a3
 W
 'components/TextArea/TextArea.module.css,c\c\cc7e7cb8e6128653d1d720b87cae9228676b2699
-P
- components/TextArea/TextArea.tsx,2\5\2524fd19f480f9333bb6c7d7b6eb053b1276f0ae
 O
 components/Input/Input.props.ts,6\2\6219ff102a61b21ba14d2710eae4e0fc4ad5e62b
 ?
 pages/index.tsx,b\3\b3357635c26d1b52053382ce7e8a8640d31fedc8
-J
-components/Input/Input.tsx,3\4\3420293bc0188d6cb73d9b94c9f994294066a0e4
 K
 components/Search/glass.svg,2\e\2e2f67f5e6fb22a33849d309a7dde5218222e625
 Q
