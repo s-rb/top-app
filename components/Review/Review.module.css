@@ -30,6 +30,7 @@
         grid-column: start / dateend;
     }
 }
+
 @media screen and (max-width: 400px) {
     .date {
         grid-column: start / end;
