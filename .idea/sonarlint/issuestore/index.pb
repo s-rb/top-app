@@ -96,8 +96,6 @@ H
 page-components/index.ts,a\d\add2a187eb8c8c75ee39d1c116ae6ccc27f90cce
 M
 components/Card/Card.props.ts,2\b\2ba8c4e977ef06778fddb6f2751446daad7d756b
-H
-components/Card/Card.tsx,b\e\be129f1dcf8e74a232743eb24f6a5dc741930b7b
 L
 components/HhData/HhData.tsx,8\b\8beb286c30a2d47bf19af1900af4ff0a9f21ec01
 j
