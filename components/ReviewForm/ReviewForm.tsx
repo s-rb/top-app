@@ -6,11 +6,11 @@ import {Input} from "../Input/Input";
 import {TextArea} from "../TextArea/TextArea";
 import {Button} from "../Button/Button";
 import CloseIcon from './close.svg';
-import {useForm, Controller} from "react-hook-form";
+import {Controller, useForm} from "react-hook-form";
 import {IReviewForm} from "./ReviewFormInterface";
 
 export const ReviewForm = ({productId, className, ...props}: ReviewFormProps): JSX.Element => {
-    const {register, control, handleSubmit} = useForm<IReviewForm>();
+    const {register, control, handleSubmit, formState: {errors}} = useForm<IReviewForm>();
 
     const onSubmit = (data: IReviewForm) => {
         console.log(data);
@@ -19,8 +19,17 @@ export const ReviewForm = ({productId, className, ...props}: ReviewFormProps): J
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
             <div className={cn(styles.reviewForm, className)} {...props}>
-                <Input {...register("name")} placeholder="Имя"/>
-                <Input {...register("title")} className={styles.title} placeholder='Заголовок отзыва'/>
+                <Input
+                    {...register("name", {required: {value: true, message: 'Заполните имя'}})}
+                    placeholder="Имя"
+                    error={errors.name}
+                />
+                <Input
+                    {...register("title", {required: {value: true, message: 'Заполните заголовок'}})}
+                    className={styles.title}
+                    placeholder='Заголовок отзыва'
+                    error={errors.title}
+                />
                 <div className={styles.rating}>
                     <span>Оценка:</span>
                     <Controller
@@ -30,7 +39,12 @@ export const ReviewForm = ({productId, className, ...props}: ReviewFormProps): J
                                     setRating={field.onChange}/>
                         } name='rating'/>
                 </div>
-                <TextArea {...register('description')} className={styles.description} placeholder='Текст отзыва'/>
+                <TextArea
+                    {...register('description', {required: {value: true, message: 'Заполните текст отзыва'}})}
+                    className={styles.description}
+                    placeholder='Текст отзыва'
+                    error={errors.description}
+                />
                 <div className={styles.submit}>
                     <Button appearance='primary'>Отправить</Button>
                     <span
