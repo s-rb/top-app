@@ -120,8 +120,6 @@ M
 components/Sort/Sort.props.ts,7\8\78f4c41290df6a0a2e9a2643e487ef24169e3357
 H
 components/Sort/Sort.tsx,5\c\5c08895c71221fb71137c8607bf00274649cf341
-`
-0page-components/TopPageComponent/sort.reducer.ts,3\9\3915b9cc778e9c8cc36cd3ef012272a9d4c2b3e8
 Q
 !layout/Sidebar/Sidebar.module.css,f\b\fb06845f857f893b8a09395b3fb0b8b2d425208f
 O

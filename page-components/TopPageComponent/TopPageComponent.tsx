@@ -4,7 +4,7 @@ import styles from './TopPageComponent.module.css';
 import {HhData} from "../../components";
 import {TopLevelCategory} from "../../interfaces/page.interface";
 import {SortEnum} from "../../components/Sort/Sort.props";
-import {useReducer} from "react";
+import {useEffect, useReducer} from "react";
 import {sortReducer} from "./sort.reducer";
 
 export const TopPageComponent = ({page, products, firstCategory}: TopPageComponentProps): JSX.Element => {
@@ -13,6 +13,11 @@ export const TopPageComponent = ({page, products, firstCategory}: TopPageCompone
     const setSort = (sort: SortEnum) => {
         dispathSort({type: sort});
     };
+
+    // useEffect вызывается каждый раз когда меняется products
+    useEffect(() => {
+        dispathSort({ type: 'reset', initialState: products});
+    }, [products])
 
     return (<div className={styles.wrapper}>
             <div className={styles.title}>
