@@ -82,8 +82,6 @@ I
 helpers/icons/courses.svg,3\3\33d834ecd8b426fa301c197f55ed31a0201db0dc
 ?
 layout/logo.svg,2\0\209d6417171c08a3278546bc55ae54435fae50ef
-F
-pages/[type]/index.tsx,0\f\0f44d10edfe28921f3d89c411781b993e2e772cf
 A
 layout/Layout.tsx,d\2\d2c96d4372a001743e12762ba93cdc7ef028e643
 O
@@ -104,8 +102,6 @@ L
 components/HhData/HhData.tsx,8\b\8beb286c30a2d47bf19af1900af4ff0a9f21ec01
 j
 :page-components/TopPageComponent/TopPageComponent.props.ts,e\1\e17f326b846ac2b0d9aae6d9b34ce6d1e9463533
-H
-pages/[type]/[alias].tsx,8\7\87ad1bde7d2aef03c29b7c7b436ae953e5a5a615
 H
 components/PTag/PTag.tsx,0\3\03023c02d4497ba1dfdb41591d62b5f39cccff48
 Y
@@ -134,10 +130,6 @@ O
 components/Htag/Htag.module.css,e\5\e58e326328194fe51b5c1efd76d5a53f11d4a7c9
 O
 components/Sort/Sort.module.css,0\7\075304017a9b7fa5c149affa28d3177bed64411b
-B
-styles/globals.css,8\c\8c258232cbcd5d83991c524a9e86c8d3f984fc57
-?
-pages/index.tsx,b\3\b3357635c26d1b52053382ce7e8a8640d31fedc8
 K
 components/Search/glass.svg,2\e\2e2f67f5e6fb22a33849d309a7dde5218222e625
 Q
