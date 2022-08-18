@@ -46,8 +46,6 @@ J
 	.eslintrc,4\b\4be5f5e3cea171c304090be92469b2f2cb51039a
 =
 next-env.d.ts,7\9\7948598afd6f2aa542f1b55d7b6f077a70937e77
-S
-#components/Rating/Rating.module.css,f\2\f23816be4cd56db1cc0365e215e90f2698e535df
 F
 layout/Layout.props.ts,2\e\2eae9956cfed0a35ab3d4ea8db578ce61e6c2c7c
 O
@@ -64,8 +62,6 @@ H
 layout/Footer/Footer.tsx,f\e\fe7f3862ff40c099d4733c18a6f2fd41c360dc3d
 M
 layout/Footer/Footer.props.ts,1\8\187e0b1760a23c1802352658942fa03513faaa0d
-Q
-!components/Rating/Rating.props.ts,5\e\5e436303e40ca0636b1de30e0df03502b61d6db4
 F
 components/Tag/Tag.tsx,6\a\6af4e1b1c88adf2c2629b64c48afc99dc8bd362f
 G
