@@ -1,7 +1,6 @@
 import {TopPageComponentProps} from "./TopPageComponent.props";
-import {Advantages, Htag, Product, Sort, Tag} from "../../components";
+import {Advantages, HhData, Htag, Product, Sort, Tag} from "../../components";
 import styles from './TopPageComponent.module.css';
-import {HhData} from "../../components";
 import {TopLevelCategory} from "../../interfaces/page.interface";
 import {SortEnum} from "../../components/Sort/Sort.props";
 import {useEffect, useReducer} from "react";
@@ -16,7 +15,7 @@ export const TopPageComponent = ({page, products, firstCategory}: TopPageCompone
 
     // useEffect вызывается каждый раз когда меняется products
     useEffect(() => {
-        dispathSort({ type: 'reset', initialState: products});
+        dispathSort({type: 'reset', initialState: products});
     }, [products]);
 
     return (<div className={styles.wrapper}>
@@ -26,7 +25,8 @@ export const TopPageComponent = ({page, products, firstCategory}: TopPageCompone
                 <Sort sort={sort} setSort={setSort}/>
             </div>
             <div>
-                {sortedProducts && sortedProducts.map(p => (<Product product={p} key={p._id}/>))}
+                {/*Когда указываем layout - значит что компонент при изменении layoutа будет анимировать это изменение*/}
+                {sortedProducts && sortedProducts.map(p => (<Product layout product={p} key={p._id}/>))}
             </div>
             <div className={styles.hhTitle}>
                 <Htag tag={'h2'}>Вакансии - {page.category}</Htag>
