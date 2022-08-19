@@ -80,8 +80,6 @@ I
 helpers/icons/courses.svg,3\3\33d834ecd8b426fa301c197f55ed31a0201db0dc
 ?
 layout/logo.svg,2\0\209d6417171c08a3278546bc55ae54435fae50ef
-A
-layout/Layout.tsx,d\2\d2c96d4372a001743e12762ba93cdc7ef028e643
 O
 components/Card/Card.module.css,a\9\a96a35b0f1e2245fd10e17e038ffb5210276c30d
 J
@@ -158,8 +156,6 @@ S
 #components/Review/Review.module.css,5\5\554fb42aaecba52606a815c0e74eea80eb968e66
 O
 components/ReviewForm/close.svg,8\d\8d27d9136e4a3ad549db6b9e612b4caef2cc9414
-C
-components/index.ts,0\5\05dbfbf07fc5a6a9b19ce700edff227ea53054e0
 U
 %components/TextArea/TextArea.props.ts,8\e\8e2d593588eb57b37f7d3573ef34c143ac7ce7a3
 Q
