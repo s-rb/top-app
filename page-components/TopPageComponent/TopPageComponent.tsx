@@ -17,7 +17,7 @@ export const TopPageComponent = ({page, products, firstCategory}: TopPageCompone
     // useEffect вызывается каждый раз когда меняется products
     useEffect(() => {
         dispathSort({ type: 'reset', initialState: products});
-    }, [products])
+    }, [products]);
 
     return (<div className={styles.wrapper}>
             <div className={styles.title}>

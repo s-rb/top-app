@@ -68,8 +68,6 @@ G
 context/app-context.tsx,f\e\feccd0cc460fe9386919d39e9b3564433b6b1ebd
 L
 interfaces/menu.interface.ts,d\2\d2d887568936bf5946a1bc873c5993ffd2bba5b1
-K
-layout/Menu/Menu.module.css,c\3\c30657a8585045717d4c6eed5bd153b3f948fe82
 >
 pages/_app.tsx,5\5\550528cc072fa7d76d123e2f4303d4ab39daa8e8
 J
@@ -134,3 +132,63 @@ J
 layout/Sidebar/Sidebar.tsx,5\9\5970634927ab492ad03b29da4dca0ecd7a2a58e6
 S
 #components/Search/Search.module.css,f\0\f0679b21c408eee6693594c3b103b6193f6ea51d
+L
+components/Search/Search.tsx,0\2\02335d2ed7f5d8d6b363ef85a8003db04dce6335
+S
+#components/Divider/Divider.props.ts,5\d\5dd5417e766ff2c47b45f0ee900fd8b223e6a0de
+U
+%components/Divider/Divider.module.css,b\b\bb1d62d03b947aa7525ca84bbfaf19e8c84a3afd
+N
+components/Divider/Divider.tsx,4\3\43d45c88d68bdf50b101122beab2912ecab9e417
+C
+helpers/helpers.tsx,7\9\79aa43d6f611a4e88122235093ae7bbe453be032
+l
+<page-components/TopPageComponent/TopPageComponent.module.css,0\3\036ea1f880e693f2b751bd2333ad339706633885
+O
+interfaces/product.interface.ts,0\6\065024068ce7cbef0dd254507fedead819bba44b
+>
+next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
+J
+components/Review/user.svg,9\2\92561a22bcf625cbee43d44b5fab1d8652c38bf7
+L
+components/Review/Review.tsx,a\6\a6e8cf8aac26bd3958db522f9af87498d436dc79
+Q
+!components/Review/Review.props.ts,8\f\8fcb5b16bdb48a130788e614936362761f6d7ea3
+S
+#components/Review/Review.module.css,5\5\554fb42aaecba52606a815c0e74eea80eb968e66
+O
+components/ReviewForm/close.svg,8\d\8d27d9136e4a3ad549db6b9e612b4caef2cc9414
+C
+components/index.ts,0\5\05dbfbf07fc5a6a9b19ce700edff227ea53054e0
+U
+%components/TextArea/TextArea.props.ts,8\e\8e2d593588eb57b37f7d3573ef34c143ac7ce7a3
+Q
+!components/Input/Input.module.css,d\a\dafd0f06d2e963b1cd006f5262e974768c930b54
+J
+components/Input/Input.tsx,3\4\3420293bc0188d6cb73d9b94c9f994294066a0e4
+O
+components/Input/Input.props.ts,6\2\6219ff102a61b21ba14d2710eae4e0fc4ad5e62b
+W
+'components/TextArea/TextArea.module.css,c\c\cc7e7cb8e6128653d1d720b87cae9228676b2699
+P
+ components/TextArea/TextArea.tsx,2\5\2524fd19f480f9333bb6c7d7b6eb053b1276f0ae
+Q
+!components/Rating/Rating.props.ts,5\e\5e436303e40ca0636b1de30e0df03502b61d6db4
+S
+#components/Rating/Rating.module.css,f\2\f23816be4cd56db1cc0365e215e90f2698e535df
+L
+components/Rating/Rating.tsx,0\f\0f06e9d27a1c8d133831529e18abc10a64707ce4
+Y
+)components/ReviewForm/ReviewForm.props.ts,1\0\10736ac8e18858f4cd2b9f95bd4cef675cb16def
+F
+pages/[type]/index.tsx,0\f\0f44d10edfe28921f3d89c411781b993e2e772cf
+@
+pages/search.tsx,a\1\a1b4f27d2b0ac19646d389f57f6a637f85e2e8b0
+S
+#components/Product/Product.props.ts,1\0\10c44162cd9fc0b927c5aa3363eb65ee7a2d3c89
+?
+pages/index.tsx,b\3\b3357635c26d1b52053382ce7e8a8640d31fedc8
+\
+,components/ReviewForm/ReviewFormInterface.ts,8\f\8ff2b9a2a63dfc91e9afb1c2a8e23d22e092c336
+B
+styles/globals.css,8\c\8c258232cbcd5d83991c524a9e86c8d3f984fc57
