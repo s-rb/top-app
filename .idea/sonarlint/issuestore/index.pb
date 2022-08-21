@@ -14,8 +14,6 @@ A
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-Q
-!components/Button/Button.props.ts,3\8\382609c09281d59af2b1768375815a6010a4cbb4
 S
 #components/Button/Button.module.css,9\2\92e10570d39aae9b84f5fe5256c682b94faed84d
 M
@@ -34,8 +32,6 @@ M
 components/PTag/PTag.props.ts,c\a\ca0871b6bbcd3baf1ec48f8b3cca972092063a9d
 K
 components/Button/arrow.svg,1\2\121c0260e02834fefca74bbe907b0013bcfedf67
-L
-components/Button/Button.tsx,2\9\29c8c1ef48dafc7df302a9c57a3c9290d3d871b8
 @
 public/arrow.svg,d\b\db62e28010c14f8648cb289a01f4593c4b2a8b21
 K
