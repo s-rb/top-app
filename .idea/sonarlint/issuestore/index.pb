@@ -104,12 +104,8 @@ H
 components/Sort/sort.svg,3\0\30fa619197e9883d0cc3390c9062e23e18b3b983
 M
 components/Sort/Sort.props.ts,7\8\78f4c41290df6a0a2e9a2643e487ef24169e3357
-H
-components/Sort/Sort.tsx,5\c\5c08895c71221fb71137c8607bf00274649cf341
 O
 components/Htag/Htag.module.css,e\5\e58e326328194fe51b5c1efd76d5a53f11d4a7c9
-O
-components/Sort/Sort.module.css,0\7\075304017a9b7fa5c149affa28d3177bed64411b
 K
 components/Search/glass.svg,2\e\2e2f67f5e6fb22a33849d309a7dde5218222e625
 Q
