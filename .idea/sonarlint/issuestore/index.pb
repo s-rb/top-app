@@ -50,14 +50,10 @@ F
 layout/Layout.props.ts,2\e\2eae9956cfed0a35ab3d4ea8db578ce61e6c2c7c
 O
 layout/Sidebar/Sidebar.props.ts,1\8\18104a53439be382a9564e2db9534c4dfa7a0543
-O
-layout/Header/Header.module.css,5\f\5f1c8a833e1f770bf9a5ed554cc0678c1dcd613a
 M
 layout/Header/Header.props.ts,7\5\7500ca69e634b2ba0f68962b922ff8e94ebfd8a1
 O
 layout/Footer/Footer.module.css,6\9\69ad04226c3420807a8b182a947713bf815e5eb9
-H
-layout/Header/Header.tsx,8\1\81daea00bf2e7e2165a2149c40e18e030f7521a3
 H
 layout/Footer/Footer.tsx,f\e\fe7f3862ff40c099d4733c18a6f2fd41c360dc3d
 M
@@ -110,14 +106,10 @@ L
 interfaces/page.interface.ts,8\3\8370538c88ee02ad5796623bb2473604291f8907
 H
 components/Sort/sort.svg,3\0\30fa619197e9883d0cc3390c9062e23e18b3b983
-H
-layout/Layout.module.css,a\8\a88a2135e58032c4ca3e455b1e08db49ea7e3fd5
 M
 components/Sort/Sort.props.ts,7\8\78f4c41290df6a0a2e9a2643e487ef24169e3357
 H
 components/Sort/Sort.tsx,5\c\5c08895c71221fb71137c8607bf00274649cf341
-Q
-!layout/Sidebar/Sidebar.module.css,f\b\fb06845f857f893b8a09395b3fb0b8b2d425208f
 O
 components/Htag/Htag.module.css,e\5\e58e326328194fe51b5c1efd76d5a53f11d4a7c9
 O
@@ -126,10 +118,6 @@ K
 components/Search/glass.svg,2\e\2e2f67f5e6fb22a33849d309a7dde5218222e625
 Q
 !components/Search/Search.props.ts,9\4\94ab9eb5d03f2eafe721fb8477c68e7442df9aaa
-J
-layout/Sidebar/Sidebar.tsx,5\9\5970634927ab492ad03b29da4dca0ecd7a2a58e6
-S
-#components/Search/Search.module.css,f\0\f0679b21c408eee6693594c3b103b6193f6ea51d
 L
 components/Search/Search.tsx,0\2\02335d2ed7f5d8d6b363ef85a8003db04dce6335
 S
