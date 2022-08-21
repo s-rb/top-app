@@ -170,5 +170,3 @@ S
 pages/index.tsx,b\3\b3357635c26d1b52053382ce7e8a8640d31fedc8
 \
 ,components/ReviewForm/ReviewFormInterface.ts,8\f\8ff2b9a2a63dfc91e9afb1c2a8e23d22e092c336
-B
-styles/globals.css,8\c\8c258232cbcd5d83991c524a9e86c8d3f984fc57
