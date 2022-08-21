@@ -132,8 +132,6 @@ O
 next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 J
 components/Review/user.svg,9\2\92561a22bcf625cbee43d44b5fab1d8652c38bf7
-L
-components/Review/Review.tsx,a\6\a6e8cf8aac26bd3958db522f9af87498d436dc79
 Q
 !components/Review/Review.props.ts,8\f\8fcb5b16bdb48a130788e614936362761f6d7ea3
 S
@@ -154,12 +152,6 @@ P
  components/TextArea/TextArea.tsx,2\5\2524fd19f480f9333bb6c7d7b6eb053b1276f0ae
 Q
 !components/Rating/Rating.props.ts,5\e\5e436303e40ca0636b1de30e0df03502b61d6db4
-S
-#components/Rating/Rating.module.css,f\2\f23816be4cd56db1cc0365e215e90f2698e535df
-L
-components/Rating/Rating.tsx,0\f\0f06e9d27a1c8d133831529e18abc10a64707ce4
-Y
-)components/ReviewForm/ReviewForm.props.ts,1\0\10736ac8e18858f4cd2b9f95bd4cef675cb16def
 F
 pages/[type]/index.tsx,0\f\0f44d10edfe28921f3d89c411781b993e2e772cf
 @
