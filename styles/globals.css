@@ -18,6 +18,13 @@ a {
 	box-sizing: border-box;
 }
 
+.visuallyHidden {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+}
+
 /* Объявляются алиасы для цветов */
 :root {
 	--black: #3B434E;

@@ -54,18 +54,24 @@ export const Product = motion(forwardRef((({
                 </div>
                 <div className={styles.title}>{product.title}</div>
                 <div className={styles.price}>
-                    {priceRu(product.price)}
+                    <span><span className="visuallyHidden">Цена</span>{priceRu(product.price)}</span>
                     {product.oldPrice &&
-                    <Tag color='green' className={styles.oldPrice}>{priceRu(product.price - product.oldPrice)}</Tag>}
+                    <Tag color='green' className={styles.oldPrice}>
+                        <span className="visuallyHidden">Скидка</span>
+                        {priceRu(product.price - product.oldPrice)}</Tag>}
                 </div>
                 <div className={styles.credit}>
+                    <span className="visuallyHidden">кредит</span>
                     {priceRu(product.credit)}/<span className={styles.month}>мес</span>
                 </div>
-                <div className={styles.rating}><Rating rating={product.reviewAvg ?? product.initialRating}/></div>
+                <div className={styles.rating}>
+                    <span className="visuallyHidden">{'Рейтинг ' + (product.reviewAvg ?? product.initialRating)}</span>
+                    <Rating rating={product.reviewAvg ?? product.initialRating}/>
+                </div>
                 <div className={styles.tags}>{product.categories.map(c => <Tag key={c} className={styles.category}
                                                                                color='ghost'>{c}</Tag>)}</div>
-                <div className={styles.priceTitle}>цена</div>
-                <div className={styles.creditTitle}>кредит</div>
+                <div className={styles.priceTitle} aria-hidden={true}>цена</div>
+                <div className={styles.creditTitle} aria-hidden={true}>кредит</div>
                 <div
                     className={styles.rateTitle}><a href="#ref"
                                                     onClick={scrollToReview}>{product.reviewCount} {declOfNum(product.reviewCount, ['отзыв', 'отзыва', 'отзывов'])}</a>

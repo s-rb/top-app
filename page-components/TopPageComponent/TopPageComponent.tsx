@@ -21,7 +21,7 @@ export const TopPageComponent = ({page, products, firstCategory}: TopPageCompone
     return (<div className={styles.wrapper}>
             <div className={styles.title}>
                 <Htag tag={'h1'}>{page.title}</Htag>
-                {products && <Tag color='grey' size='large'>{products.length}</Tag>}
+                {products && <Tag color='grey' size='large' aria-label={products.length + ' элементов'}>{products.length}</Tag>}
                 <Sort sort={sort} setSort={setSort}/>
             </div>
             <div>
