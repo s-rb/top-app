@@ -106,6 +106,7 @@ export const Product = motion(forwardRef((({
                             onClick={() => {
                                 setIsReviewOpened(!isReviewOpened)
                             }}
+                            aria-expanded={isReviewOpened}
                     >Читать отзывы</Button>
                 </div>
             </Card>

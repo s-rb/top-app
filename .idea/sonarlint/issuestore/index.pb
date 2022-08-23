@@ -132,14 +132,10 @@ U
 %components/TextArea/TextArea.props.ts,8\e\8e2d593588eb57b37f7d3573ef34c143ac7ce7a3
 Q
 !components/Input/Input.module.css,d\a\dafd0f06d2e963b1cd006f5262e974768c930b54
-J
-components/Input/Input.tsx,3\4\3420293bc0188d6cb73d9b94c9f994294066a0e4
 O
 components/Input/Input.props.ts,6\2\6219ff102a61b21ba14d2710eae4e0fc4ad5e62b
 W
 'components/TextArea/TextArea.module.css,c\c\cc7e7cb8e6128653d1d720b87cae9228676b2699
-P
- components/TextArea/TextArea.tsx,2\5\2524fd19f480f9333bb6c7d7b6eb053b1276f0ae
 Q
 !components/Rating/Rating.props.ts,5\e\5e436303e40ca0636b1de30e0df03502b61d6db4
 F
@@ -186,8 +182,6 @@ J
 layout/Sidebar/Sidebar.tsx,5\9\5970634927ab492ad03b29da4dca0ecd7a2a58e6
 Y
 )components/ButtonIcon/ButtonIcon.props.ts,b\6\b6d10129c1e34a925c6aa5ac5dda14916ef5645a
-H
-layout/Header/Header.tsx,8\1\81daea00bf2e7e2165a2149c40e18e030f7521a3
 Q
 !components/Button/Button.props.ts,3\8\382609c09281d59af2b1768375815a6010a4cbb4
 O
@@ -206,9 +200,15 @@ L
 components/Button/Button.tsx,2\9\29c8c1ef48dafc7df302a9c57a3c9290d3d871b8
 H
 layout/Layout.module.css,a\8\a88a2135e58032c4ca3e455b1e08db49ea7e3fd5
-T
-$components/ReviewForm/ReviewForm.tsx,6\7\6726c5b166bffc67fa87d5ac28b5ce68fd98da92
 Y
 )components/ReviewForm/ReviewForm.props.ts,1\0\10736ac8e18858f4cd2b9f95bd4cef675cb16def
 L
 components/Review/Review.tsx,a\6\a6e8cf8aac26bd3958db522f9af87498d436dc79
+S
+#components/Rating/Rating.module.css,f\2\f23816be4cd56db1cc0365e215e90f2698e535df
+H
+components/Sort/Sort.tsx,5\c\5c08895c71221fb71137c8607bf00274649cf341
+B
+styles/globals.css,8\c\8c258232cbcd5d83991c524a9e86c8d3f984fc57
+O
+components/Sort/Sort.module.css,0\7\075304017a9b7fa5c149affa28d3177bed64411b
