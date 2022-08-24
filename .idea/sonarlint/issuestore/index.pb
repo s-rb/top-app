@@ -60,8 +60,6 @@ G
 context/app-context.tsx,f\e\feccd0cc460fe9386919d39e9b3564433b6b1ebd
 L
 interfaces/menu.interface.ts,d\2\d2d887568936bf5946a1bc873c5993ffd2bba5b1
->
-pages/_app.tsx,5\5\550528cc072fa7d76d123e2f4303d4ab39daa8e8
 J
 helpers/icons/products.svg,7\6\760693ebe2795db8ba3258b7d07164d1da93cb1a
 J
@@ -154,8 +152,6 @@ H
 components/Card/Card.tsx,b\e\be129f1dcf8e74a232743eb24f6a5dc741930b7b
 [
 +components/ReviewForm/ReviewForm.module.css,3\2\327fd8f775cbd99871a71e77dc8de8f2edc820a3
-H
-pages/[type]/[alias].tsx,8\7\87ad1bde7d2aef03c29b7c7b436ae953e5a5a615
 >
 helpers/api.ts,c\b\cbe228bf28557682ad12665099ef8f16247c9149
 A
