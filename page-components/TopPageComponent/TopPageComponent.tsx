@@ -24,9 +24,9 @@ export const TopPageComponent = ({page, products, firstCategory}: TopPageCompone
                 {products && <Tag color='grey' size='large' aria-label={products.length + ' элементов'}>{products.length}</Tag>}
                 <Sort sort={sort} setSort={setSort}/>
             </div>
-            <div>
+            <div role='list'>
                 {/*Когда указываем layout - значит что компонент при изменении layoutа будет анимировать это изменение*/}
-                {sortedProducts && sortedProducts.map(p => (<Product layout product={p} key={p._id}/>))}
+                {sortedProducts && sortedProducts.map(p => (<Product role='listitem' layout product={p} key={p._id}/>))}
             </div>
             <div className={styles.hhTitle}>
                 <Htag tag={'h2'}>Вакансии - {page.category}</Htag>

@@ -190,8 +190,6 @@ T
 $components/ButtonIcon/ButtonIcon.tsx,2\3\23dc9ac420eec5de9166f71a830b1f93ec3f2f86
 D
 components/Up/Up.tsx,4\c\4c38126fd430767ac65dd92fb422e132112ff17f
-K
-layout/Menu/Menu.module.css,c\3\c30657a8585045717d4c6eed5bd153b3f948fe82
 U
 %components/Product/Product.module.css,6\f\6f52d3f1a816259cc546724c9a843d93852cdd64
 C
@@ -212,3 +210,7 @@ B
 styles/globals.css,8\c\8c258232cbcd5d83991c524a9e86c8d3f984fc57
 O
 components/Sort/Sort.module.css,0\7\075304017a9b7fa5c149affa28d3177bed64411b
+j
+:page-components/TopPageComponent/TopPageComponent.props.ts,e\1\e17f326b846ac2b0d9aae6d9b34ce6d1e9463533
+N
+components/Product/Product.tsx,5\f\5fd59a0cf32bb49aa8bc817a8accc4d97f331b34
