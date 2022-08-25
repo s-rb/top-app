@@ -14,18 +14,12 @@ A
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-S
-#components/Button/Button.module.css,9\2\92e10570d39aae9b84f5fe5256c682b94faed84d
 M
 components/Htag/Htag.props.ts,d\3\d3f7c8defaad4132392082c2f613db7ba486e411
 H
 components/Htag/Htag.tsx,c\4\c44881b2d9e59799043a8db4934575c007dc36b4
 C
 pages/_document.tsx,a\d\ada43e48670fd1ae7318859ac38479e031ea9236
-O
-components/PTag/PTag.module.css,b\d\bd342990274a1ff891309cae8b72de95b57bdf0a
-M
-components/Tag/Tag.module.css,b\a\ba796994b26080363688c5e11079897e9f7ed05e
 K
 components/Tag/Tag.props.ts,d\0\d0b016f5df856b41df244ea167ab590a87bd5aed
 M
@@ -48,8 +42,6 @@ O
 layout/Sidebar/Sidebar.props.ts,1\8\18104a53439be382a9564e2db9534c4dfa7a0543
 M
 layout/Header/Header.props.ts,7\5\7500ca69e634b2ba0f68962b922ff8e94ebfd8a1
-O
-layout/Footer/Footer.module.css,6\9\69ad04226c3420807a8b182a947713bf815e5eb9
 H
 layout/Footer/Footer.tsx,f\e\fe7f3862ff40c099d4733c18a6f2fd41c360dc3d
 M
@@ -70,14 +62,10 @@ I
 helpers/icons/courses.svg,3\3\33d834ecd8b426fa301c197f55ed31a0201db0dc
 ?
 layout/logo.svg,2\0\209d6417171c08a3278546bc55ae54435fae50ef
-O
-components/Card/Card.module.css,a\9\a96a35b0f1e2245fd10e17e038ffb5210276c30d
 J
 components/HhData/rate.svg,7\9\79cb29ab1c821dcf5d0cdeccece7855f84c8c936
 Q
 !components/HhData/HhData.props.ts,e\1\e18daf2a3a11a6dbd3af876ee0099c494566258a
-S
-#components/HhData/HhData.module.css,d\e\ded9a5faa95bc196cb186a04b0f9b2da4c6d2e50
 H
 page-components/index.ts,a\d\add2a187eb8c8c75ee39d1c116ae6ccc27f90cce
 M
@@ -92,28 +80,20 @@ T
 $components/Advantages/Advantages.tsx,1\2\122c54b40af7a676f2bd7271bec6cf573844ac44
 O
 components/Advantages/check.svg,f\0\f004f16be3f0cd5d4d46d63614bff06e09f15f40
-[
-+components/Advantages/Advantages.module.css,d\0\d04495e3477aec29225af7e6ac0c50b5f3c0e193
 L
 interfaces/page.interface.ts,8\3\8370538c88ee02ad5796623bb2473604291f8907
 H
 components/Sort/sort.svg,3\0\30fa619197e9883d0cc3390c9062e23e18b3b983
 M
 components/Sort/Sort.props.ts,7\8\78f4c41290df6a0a2e9a2643e487ef24169e3357
-O
-components/Htag/Htag.module.css,e\5\e58e326328194fe51b5c1efd76d5a53f11d4a7c9
 K
 components/Search/glass.svg,2\e\2e2f67f5e6fb22a33849d309a7dde5218222e625
 S
 #components/Divider/Divider.props.ts,5\d\5dd5417e766ff2c47b45f0ee900fd8b223e6a0de
-U
-%components/Divider/Divider.module.css,b\b\bb1d62d03b947aa7525ca84bbfaf19e8c84a3afd
 N
 components/Divider/Divider.tsx,4\3\43d45c88d68bdf50b101122beab2912ecab9e417
 C
 helpers/helpers.tsx,7\9\79aa43d6f611a4e88122235093ae7bbe453be032
-l
-<page-components/TopPageComponent/TopPageComponent.module.css,0\3\036ea1f880e693f2b751bd2333ad339706633885
 O
 interfaces/product.interface.ts,0\6\065024068ce7cbef0dd254507fedead819bba44b
 >
@@ -122,18 +102,12 @@ J
 components/Review/user.svg,9\2\92561a22bcf625cbee43d44b5fab1d8652c38bf7
 Q
 !components/Review/Review.props.ts,8\f\8fcb5b16bdb48a130788e614936362761f6d7ea3
-S
-#components/Review/Review.module.css,5\5\554fb42aaecba52606a815c0e74eea80eb968e66
 O
 components/ReviewForm/close.svg,8\d\8d27d9136e4a3ad549db6b9e612b4caef2cc9414
 U
 %components/TextArea/TextArea.props.ts,8\e\8e2d593588eb57b37f7d3573ef34c143ac7ce7a3
-Q
-!components/Input/Input.module.css,d\a\dafd0f06d2e963b1cd006f5262e974768c930b54
 O
 components/Input/Input.props.ts,6\2\6219ff102a61b21ba14d2710eae4e0fc4ad5e62b
-W
-'components/TextArea/TextArea.module.css,c\c\cc7e7cb8e6128653d1d720b87cae9228676b2699
 Q
 !components/Rating/Rating.props.ts,5\e\5e436303e40ca0636b1de30e0df03502b61d6db4
 F
@@ -150,63 +124,35 @@ S
 0page-components/TopPageComponent/sort.reducer.ts,3\9\3915b9cc778e9c8cc36cd3ef012272a9d4c2b3e8
 H
 components/Card/Card.tsx,b\e\be129f1dcf8e74a232743eb24f6a5dc741930b7b
-[
-+components/ReviewForm/ReviewForm.module.css,3\2\327fd8f775cbd99871a71e77dc8de8f2edc820a3
 >
 helpers/api.ts,c\b\cbe228bf28557682ad12665099ef8f16247c9149
-A
-package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 C
 hooks/useScrollY.ts,e\f\ef455a2b56b680bbaf58bf3f85973d626ae3d7c9
-K
-components/Up/Up.module.css,f\a\fae81f55a492b179c67c8e7915ccad7ad39cdb7d
-[
-+components/ButtonIcon/ButtonIcon.module.css,5\1\5189881d16581a53b7a96b88bfb01df4bcbcff06
 M
 components/ButtonIcon/Up2.svg,b\e\bea1992f1b82321002d0062a6f3f52e3a827baf4
 N
 components/ButtonIcon/Menu.svg,8\c\8c459cfe210d400dd7436091a4380d6029b32f3b
 O
 components/ButtonIcon/close.svg,a\8\a878e33194f2fdf24feb0b451b1b8c338464a56f
-Q
-!layout/Sidebar/Sidebar.module.css,f\b\fb06845f857f893b8a09395b3fb0b8b2d425208f
-S
-#components/Search/Search.module.css,f\0\f0679b21c408eee6693594c3b103b6193f6ea51d
 J
 layout/Sidebar/Sidebar.tsx,5\9\5970634927ab492ad03b29da4dca0ecd7a2a58e6
 Y
 )components/ButtonIcon/ButtonIcon.props.ts,b\6\b6d10129c1e34a925c6aa5ac5dda14916ef5645a
 Q
 !components/Button/Button.props.ts,3\8\382609c09281d59af2b1768375815a6010a4cbb4
-O
-layout/Header/Header.module.css,5\f\5f1c8a833e1f770bf9a5ed554cc0678c1dcd613a
 T
 $components/ButtonIcon/ButtonIcon.tsx,2\3\23dc9ac420eec5de9166f71a830b1f93ec3f2f86
 D
 components/Up/Up.tsx,4\c\4c38126fd430767ac65dd92fb422e132112ff17f
-U
-%components/Product/Product.module.css,6\f\6f52d3f1a816259cc546724c9a843d93852cdd64
 C
 components/index.ts,0\5\05dbfbf07fc5a6a9b19ce700edff227ea53054e0
 L
 components/Button/Button.tsx,2\9\29c8c1ef48dafc7df302a9c57a3c9290d3d871b8
-H
-layout/Layout.module.css,a\8\a88a2135e58032c4ca3e455b1e08db49ea7e3fd5
 Y
 )components/ReviewForm/ReviewForm.props.ts,1\0\10736ac8e18858f4cd2b9f95bd4cef675cb16def
 L
 components/Review/Review.tsx,a\6\a6e8cf8aac26bd3958db522f9af87498d436dc79
-S
-#components/Rating/Rating.module.css,f\2\f23816be4cd56db1cc0365e215e90f2698e535df
 H
 components/Sort/Sort.tsx,5\c\5c08895c71221fb71137c8607bf00274649cf341
-B
-styles/globals.css,8\c\8c258232cbcd5d83991c524a9e86c8d3f984fc57
-O
-components/Sort/Sort.module.css,0\7\075304017a9b7fa5c149affa28d3177bed64411b
 j
 :page-components/TopPageComponent/TopPageComponent.props.ts,e\1\e17f326b846ac2b0d9aae6d9b34ce6d1e9463533
-N
-components/Product/Product.tsx,5\f\5fd59a0cf32bb49aa8bc817a8accc4d97f331b34

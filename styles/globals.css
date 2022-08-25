@@ -2,6 +2,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+
 	color: var(--black);
 	background: #F5F6F8;
 
@@ -19,10 +20,12 @@ a {
 }
 
 .visuallyHidden {
+	position: absolute;
+
+	overflow: hidden;
+
 	width: 0;
 	height: 0;
-	overflow: hidden;
-	position: absolute;
 }
 
 /* Объявляются алиасы для цветов */

@@ -1,21 +1,24 @@
 .footer {
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-    gap: 10px 40px;
-    color: var(--white);
-    font-size: 16px;
-    line-height: 20px;
+	display: grid;
 
-    background: var(--primary);
-    padding: 25px 30px; /*По гориз и по вертик*/
+	padding: 25px 30px; /* По гориз и по вертик */
+
+	color: var(--white);
+
+	background: var(--primary);
+
+	font-size: 16px;
+	line-height: 20px;
+	grid-template-columns: 1fr auto auto;
+	gap: 10px 40px;
 }
 
 .footer a:hover {
-    color: var(--gray-light);
+	color: var(--gray-light);
 }
 
 @media (max-width: 765px) {
-    .footer {
-        grid-template-columns: 1fr;
-    }
+	.footer {
+		grid-template-columns: 1fr;
+	}
 }

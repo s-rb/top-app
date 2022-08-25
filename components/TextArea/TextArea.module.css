@@ -1,32 +1,35 @@
 .textArea {
-    padding: 7px 15px;
-    color: var(--black);
-    border: none;
-    outline-color: var(--primary);
-    background: var(--white);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
-    border-radius: 5px;
-    width: 100%;
-    font-size: 16px;
-    line-height: 22px;
-    font-family: var(--font-family);
+	width: 100%;
+	padding: 7px 15px;
+
+	color: var(--black);
+	border: none;
+	border-radius: 5px;
+	outline-color: var(--primary);
+	background: var(--white);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+
+	font-family: var(--font-family);
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .textArea::placeholder {
-    color: var(--gray);
+	color: var(--gray);
 }
 
 .error {
-    border: 1px solid var(--red);
+	border: 1px solid var(--red);
 }
 
 .textAreaWrapper {
-    position: relative;
+	position: relative;
 }
 
 .errorMessage {
-    position: absolute;
-    bottom: -15px;
-    left: 0;
-    color: var(--red);
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+
+	color: var(--red);
 }

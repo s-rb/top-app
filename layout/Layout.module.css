@@ -1,63 +1,68 @@
-/*Задаем размер колонок в grid-template-columns minmax - от и до размеры*/
+/* Задаем размер колонок в grid-template-columns minmax - от и до размеры */
 .wrapper {
-    display: grid;
-    grid-template-columns: auto 230px minmax(320px, 1200px) auto;
-    grid-template-rows: auto 1fr auto; /*высота ячеек, авто - сколько осталось использует. То есть первая и последняя ячейка прижмутся к верху/низу*/
-    min-height: 100vh; /*Минимальная высота*/
-    gap: 40px 30px;
-    grid-template-areas:
-        ". header header ."
-        ". sidebar body ."
-        "footer-area footer-area footer-area footer-area";
+	display: grid;
+	grid-template-columns: auto 230px minmax(320px, 1200px) auto;
+	grid-template-rows: auto 1fr auto; /* высота ячеек, авто - сколько осталось использует. То есть первая и последняя ячейка прижмутся к верху/низу */
+
+	min-height: 100vh; /* Минимальная высота */
+	gap: 40px 30px;
+	grid-template-areas:
+		". header header ."
+		". sidebar body ."
+		"footer-area footer-area footer-area footer-area";
 }
 
 .header {
-    grid-area: header;
+	grid-area: header;
 }
 
 .sidebar {
-    grid-area: sidebar;
+	grid-area: sidebar;
 }
 
 .body {
-    grid-area: body;
-    outline: none;
+	grid-area: body;
+
+	outline: none;
 }
 
 .footer {
-    grid-area: footer-area;
+	grid-area: footer-area;
 }
 
 .skipLink {
-    display: block;
-    position: fixed;
-    left: 100px;
-    top: 0;
-    overflow: hidden;
-    height: 0;
-    background: var(--primary);
-    color: var(--white);
+	position: fixed;
+	top: 0;
+	left: 100px;
+
+	display: block;
+	overflow: hidden;
+
+	height: 0;
+
+	color: var(--white);
+	background: var(--primary);
 }
 
 .displayed {
-    height: auto;
+	height: auto;
 }
 
 @media (max-width: 765px) {
-    .wrapper {
-        grid-template-columns: minmax(320px, 1fr);
-        grid-template-areas:
-            "header"
-            "body"
-            "footer-area";
-        gap: 10px;
-    }
+	.wrapper {
+		grid-template-columns: minmax(320px, 1fr);
+		grid-template-areas:
+			"header"
+			"body"
+			"footer-area";
+		gap: 10px;
+	}
 
-    .sidebar {
-        display: none;
-    }
+	.sidebar {
+		display: none;
+	}
 
-    .body {
-        padding: 15px;
-    }
+	.body {
+		padding: 15px;
+	}
 }
