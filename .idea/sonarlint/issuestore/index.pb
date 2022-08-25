@@ -70,8 +70,6 @@ H
 page-components/index.ts,a\d\add2a187eb8c8c75ee39d1c116ae6ccc27f90cce
 M
 components/Card/Card.props.ts,2\b\2ba8c4e977ef06778fddb6f2751446daad7d756b
-L
-components/HhData/HhData.tsx,8\b\8beb286c30a2d47bf19af1900af4ff0a9f21ec01
 H
 components/PTag/PTag.tsx,0\3\03023c02d4497ba1dfdb41591d62b5f39cccff48
 Y
@@ -116,14 +114,10 @@ F
 pages/search.tsx,a\1\a1b4f27d2b0ac19646d389f57f6a637f85e2e8b0
 S
 #components/Product/Product.props.ts,1\0\10c44162cd9fc0b927c5aa3363eb65ee7a2d3c89
-?
-pages/index.tsx,b\3\b3357635c26d1b52053382ce7e8a8640d31fedc8
 \
 ,components/ReviewForm/ReviewFormInterface.ts,8\f\8ff2b9a2a63dfc91e9afb1c2a8e23d22e092c336
 `
 0page-components/TopPageComponent/sort.reducer.ts,3\9\3915b9cc778e9c8cc36cd3ef012272a9d4c2b3e8
-H
-components/Card/Card.tsx,b\e\be129f1dcf8e74a232743eb24f6a5dc741930b7b
 >
 helpers/api.ts,c\b\cbe228bf28557682ad12665099ef8f16247c9149
 C
@@ -150,8 +144,6 @@ L
 components/Button/Button.tsx,2\9\29c8c1ef48dafc7df302a9c57a3c9290d3d871b8
 Y
 )components/ReviewForm/ReviewForm.props.ts,1\0\10736ac8e18858f4cd2b9f95bd4cef675cb16def
-L
-components/Review/Review.tsx,a\6\a6e8cf8aac26bd3958db522f9af87498d436dc79
 H
 components/Sort/Sort.tsx,5\c\5c08895c71221fb71137c8607bf00274649cf341
 j

@@ -5,8 +5,9 @@ import StarIcon from './star.svg';
 import {useEffect, useState, KeyboardEvent, forwardRef, ForwardedRef, useRef} from "react";
 import {Input} from "../Input/Input";
 
-export const Rating = forwardRef(({isEditable = false, rating, error, setRating, tabIndex, ...props
-                                  }: RatingProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
+const ratingComponent = forwardRef(({
+                                        isEditable = false, rating, error, setRating, tabIndex, ...props
+                                    }: RatingProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
     const [ratingArray, setRatingArray] = useState<JSX.Element[]>(new Array(5).fill(<></>)); // Первоначально массив заполняется пустыми элементами (реакт фрагмент)
     const ratingArrayRef = useRef<(HTMLSpanElement | null)[]>([]);
 
@@ -91,3 +92,5 @@ export const Rating = forwardRef(({isEditable = false, rating, error, setRating,
         </div>
     );
 });
+ratingComponent.displayName = 'Rating';
+export const Rating = ratingComponent;

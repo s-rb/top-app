@@ -3,7 +3,7 @@ import styles from './Input.module.css';
 import cn from 'classnames';
 import {ForwardedRef, forwardRef} from "react";
 
-export const Input = forwardRef(({className, error, ...props}: InputProps, ref: ForwardedRef<HTMLInputElement>): JSX.Element => {
+const inputComponent = forwardRef(({className, error, ...props}: InputProps, ref: ForwardedRef<HTMLInputElement>): JSX.Element => {
     return (
         <div className={cn(styles.inputWrapper, className)}>
             <input className={cn(styles.input, {
@@ -13,3 +13,5 @@ export const Input = forwardRef(({className, error, ...props}: InputProps, ref: 
         </div>
     );
 });
+inputComponent.displayName = 'Input';
+export const Input = inputComponent;

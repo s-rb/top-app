@@ -4,7 +4,7 @@ import styles from './Search.module.css';
 import cn from "classnames";
 import {Input} from "../Input/Input";
 import {Button} from "../Button/Button";
-import {useState} from "react";
+import React, {useState} from "react";
 import GlassIcon from './glass.svg';
 import {useRouter} from "next/router";
 
@@ -21,7 +21,7 @@ export const Search = ({className, ...props}: SearchProps): JSX.Element => {
         });
     };
 
-    const handleKeyDown = (event: KeyboardEvent) => {
+    const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
         if (event.key == 'Enter') {
             goToSearch();
         }
@@ -34,7 +34,7 @@ export const Search = ({className, ...props}: SearchProps): JSX.Element => {
                 placeholder='Поиск...'
                 value={search}
                 onChange={(event) => setSearch(event.target.value)}
-                onKeyDown={handleKeyDown}
+                onKeyDown={(event) => handleKeyDown(event)}
             />
             <Button
                 appearance='primary'
