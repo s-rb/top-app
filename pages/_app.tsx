@@ -2,17 +2,19 @@ import '../styles/globals.css';
 import React from 'react';
 import {AppProps} from "next/dist/shared/lib/router/router";
 import Head from "next/head";
+import Router from 'next/router';
 import ym from 'react-yandex-metrika';
 import {YMInitializer} from 'react-yandex-metrika';
 
+// При каждом изменении роута отправляются в яндекс метрику что мы захитились
+Router.events.on('routeChangeComplete', (url: string) => {
+    // Мы не на сервере, а на клиенте
+    if (typeof window !== 'undefined') {
+        ym('hit', url);
+    }
+});
+
 function MyApp({Component, pageProps, router}: AppProps): JSX.Element {
-    // При каждом изменении роута отправляются в яндекс метрику что мы захитились
-    router.events.on('routeChangeComplete', (url: string) => {
-        // Мы не на сервере, а на клиенте
-        if (typeof window !== 'undefined') {
-            ym('hit', url);
-        }
-    })
 
     return <>
         <Head>
