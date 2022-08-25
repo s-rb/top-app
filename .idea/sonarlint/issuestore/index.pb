@@ -18,8 +18,6 @@ M
 components/Htag/Htag.props.ts,d\3\d3f7c8defaad4132392082c2f613db7ba486e411
 H
 components/Htag/Htag.tsx,c\4\c44881b2d9e59799043a8db4934575c007dc36b4
-C
-pages/_document.tsx,a\d\ada43e48670fd1ae7318859ac38479e031ea9236
 K
 components/Tag/Tag.props.ts,d\0\d0b016f5df856b41df244ea167ab590a87bd5aed
 M
