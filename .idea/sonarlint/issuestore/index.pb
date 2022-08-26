@@ -3,8 +3,6 @@
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 >
 .eslintrc.json,7\1\71c20a341bfe32aa5cd5b4384e94f942bab6a7d3
-=
-tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 A
 .stylelintrc.json,b\8\b8af146c14f2398fd612ac906f0be41df9d89b72
 \
@@ -106,8 +104,6 @@ O
 components/Input/Input.props.ts,6\2\6219ff102a61b21ba14d2710eae4e0fc4ad5e62b
 Q
 !components/Rating/Rating.props.ts,5\e\5e436303e40ca0636b1de30e0df03502b61d6db4
-F
-pages/[type]/index.tsx,0\f\0f44d10edfe28921f3d89c411781b993e2e772cf
 @
 pages/search.tsx,a\1\a1b4f27d2b0ac19646d389f57f6a637f85e2e8b0
 S
@@ -204,8 +200,6 @@ D
 layout/Menu/Menu.tsx,f\a\faafe9a932884399edff2fd349960b72b16910e9
 L
 components/Review/Review.tsx,a\6\a6e8cf8aac26bd3958db522f9af87498d436dc79
-L
-components/HhData/HhData.tsx,8\b\8beb286c30a2d47bf19af1900af4ff0a9f21ec01
 N
 components/Product/Product.tsx,5\f\5fd59a0cf32bb49aa8bc817a8accc4d97f331b34
 P
