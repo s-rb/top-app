@@ -210,3 +210,21 @@ L
 components/Rating/Rating.tsx,0\f\0f06e9d27a1c8d133831529e18abc10a64707ce4
 e
 5page-components/TopPageComponent/TopPageComponent.tsx,e\1\e19202b68e661c2f3b2e79ae229b7a318c3b5d35
+T
+$components/ReviewForm/ReviewForm.tsx,6\7\6726c5b166bffc67fa87d5ac28b5ce68fd98da92
+L
+components/Search/Search.tsx,0\2\02335d2ed7f5d8d6b363ef85a8003db04dce6335
+=
+pages/404.tsx,8\3\837164bf6d41d51e742bd126ebe4ea41c77deb17
+=
+pages/500.tsx,9\d\9da9fe461fc0409faf3ab16c6c37cde53ca7cc90
+>
+pages/_app.tsx,5\5\550528cc072fa7d76d123e2f4303d4ab39daa8e8
+C
+pages/_document.tsx,a\d\ada43e48670fd1ae7318859ac38479e031ea9236
+A
+package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
+<
+package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+H
+pages/[type]/[alias].tsx,8\7\87ad1bde7d2aef03c29b7c7b436ae953e5a5a615

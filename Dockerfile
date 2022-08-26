@@ -9,6 +9,6 @@ RUN npm run build
 #Выкидываем ненужные в продакшен зависимости
 RUN npm prune --production
 #Стартуем сервер
-CMD ["npm start"]
+CMD npm start
 #Покажем наружу порт
 EXPOSE 3000
