@@ -134,8 +134,6 @@ Q
 !components/Button/Button.props.ts,3\8\382609c09281d59af2b1768375815a6010a4cbb4
 T
 $components/ButtonIcon/ButtonIcon.tsx,2\3\23dc9ac420eec5de9166f71a830b1f93ec3f2f86
-D
-components/Up/Up.tsx,4\c\4c38126fd430767ac65dd92fb422e132112ff17f
 C
 components/index.ts,0\5\05dbfbf07fc5a6a9b19ce700edff227ea53054e0
 L
@@ -146,3 +144,75 @@ H
 components/Sort/Sort.tsx,5\c\5c08895c71221fb71137c8607bf00274649cf341
 j
 :page-components/TopPageComponent/TopPageComponent.props.ts,e\1\e17f326b846ac2b0d9aae6d9b34ce6d1e9463533
+Q
+!components/Search/Search.props.ts,9\4\94ab9eb5d03f2eafe721fb8477c68e7442df9aaa
+H
+layout/Header/Header.tsx,8\1\81daea00bf2e7e2165a2149c40e18e030f7521a3
+S
+#components/Review/Review.module.css,5\5\554fb42aaecba52606a815c0e74eea80eb968e66
+O
+components/Sort/Sort.module.css,0\7\075304017a9b7fa5c149affa28d3177bed64411b
+[
++components/ReviewForm/ReviewForm.module.css,3\2\327fd8f775cbd99871a71e77dc8de8f2edc820a3
+S
+#components/Rating/Rating.module.css,f\2\f23816be4cd56db1cc0365e215e90f2698e535df
+K
+layout/Menu/Menu.module.css,c\3\c30657a8585045717d4c6eed5bd153b3f948fe82
+U
+%components/Divider/Divider.module.css,b\b\bb1d62d03b947aa7525ca84bbfaf19e8c84a3afd
+H
+layout/Layout.module.css,a\8\a88a2135e58032c4ca3e455b1e08db49ea7e3fd5
+O
+components/Card/Card.module.css,a\9\a96a35b0f1e2245fd10e17e038ffb5210276c30d
+[
++components/ButtonIcon/ButtonIcon.module.css,5\1\5189881d16581a53b7a96b88bfb01df4bcbcff06
+O
+components/PTag/PTag.module.css,b\d\bd342990274a1ff891309cae8b72de95b57bdf0a
+Q
+!layout/Sidebar/Sidebar.module.css,f\b\fb06845f857f893b8a09395b3fb0b8b2d425208f
+K
+components/Up/Up.module.css,f\a\fae81f55a492b179c67c8e7915ccad7ad39cdb7d
+O
+layout/Header/Header.module.css,5\f\5f1c8a833e1f770bf9a5ed554cc0678c1dcd613a
+O
+layout/Footer/Footer.module.css,6\9\69ad04226c3420807a8b182a947713bf815e5eb9
+O
+components/Htag/Htag.module.css,e\5\e58e326328194fe51b5c1efd76d5a53f11d4a7c9
+B
+styles/globals.css,8\c\8c258232cbcd5d83991c524a9e86c8d3f984fc57
+S
+#components/HhData/HhData.module.css,d\e\ded9a5faa95bc196cb186a04b0f9b2da4c6d2e50
+S
+#components/Search/Search.module.css,f\0\f0679b21c408eee6693594c3b103b6193f6ea51d
+[
++components/Advantages/Advantages.module.css,d\0\d04495e3477aec29225af7e6ac0c50b5f3c0e193
+W
+'components/TextArea/TextArea.module.css,c\c\cc7e7cb8e6128653d1d720b87cae9228676b2699
+M
+components/Tag/Tag.module.css,b\a\ba796994b26080363688c5e11079897e9f7ed05e
+l
+<page-components/TopPageComponent/TopPageComponent.module.css,0\3\036ea1f880e693f2b751bd2333ad339706633885
+Q
+!components/Input/Input.module.css,d\a\dafd0f06d2e963b1cd006f5262e974768c930b54
+S
+#components/Button/Button.module.css,9\2\92e10570d39aae9b84f5fe5256c682b94faed84d
+U
+%components/Product/Product.module.css,6\f\6f52d3f1a816259cc546724c9a843d93852cdd64
+A
+.husky/pre-commit,a\b\ab6c0c74cc7cd7c8c8b24da380d18aa4667658ae
+D
+layout/Menu/Menu.tsx,f\a\faafe9a932884399edff2fd349960b72b16910e9
+L
+components/Review/Review.tsx,a\6\a6e8cf8aac26bd3958db522f9af87498d436dc79
+L
+components/HhData/HhData.tsx,8\b\8beb286c30a2d47bf19af1900af4ff0a9f21ec01
+N
+components/Product/Product.tsx,5\f\5fd59a0cf32bb49aa8bc817a8accc4d97f331b34
+P
+ components/TextArea/TextArea.tsx,2\5\2524fd19f480f9333bb6c7d7b6eb053b1276f0ae
+J
+components/Input/Input.tsx,3\4\3420293bc0188d6cb73d9b94c9f994294066a0e4
+L
+components/Rating/Rating.tsx,0\f\0f06e9d27a1c8d133831529e18abc10a64707ce4
+e
+5page-components/TopPageComponent/TopPageComponent.tsx,e\1\e19202b68e661c2f3b2e79ae229b7a318c3b5d35
