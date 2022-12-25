@@ -35,3 +35,11 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+.idea
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
